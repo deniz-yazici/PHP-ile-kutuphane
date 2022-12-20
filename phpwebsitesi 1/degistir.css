@@ -1,0 +1,34 @@
+body {
+    background-image: url("C:\xampp\htdocs\kutuphane.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.one:hover{
+    background-color:green;
+}
+.two:hover{
+    background-color:red;
+}
+table:hover{
+ border-radius:10px;
+ width: 600px;
+ height: 400px;
+ background:url("http://lorempixel.com/600/400/");
+ background-size: 100% auto;
+ background-position: 50% 50%;
+ transition: background-size  .2s;
+ box-shadow: 20px 20px 20px #000;
+ -moz-box-shadow: 20px 20px 20px #000;
+ -webkit-box-shadow: 20px 20px 20px #000;
+
+}
+.a{
+    width:100%;
+
+}
+.a:hover{
+    background-color:gray ;
+}
